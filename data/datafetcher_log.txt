@@ -1,0 +1,25 @@
+[2025-05-10 13:39:57] ❌ cURL error: SSL certificate problem: unable to get local issuer certificate
+[2025-05-10 13:43:28] ✅ Data saved to C:\Users\tom wislez\OneDrive\Documents\Visual Studio Code\repos\Schone Smoel Website\schonesmoel.be\leutepreute\caralculator\data/cara.json
+[2025-05-10 13:50:31] ✅ Data saved to C:\Users\tom wislez\OneDrive\Documents\Visual Studio Code\repos\Schone Smoel Website\schonesmoel.be\leutepreute\caralculator\data/cara.txt
+[2025-05-10 13:54:34]  Data saved to C:\Users\tom wislez\OneDrive\Documents\Visual Studio Code\repos\Schone Smoel Website\schonesmoel.be\leutepreute\caralculator\data/cara.html
+[2025-05-10 13:54:58]  Data saved to C:\Users\tom wislez\OneDrive\Documents\Visual Studio Code\repos\Schone Smoel Website\schonesmoel.be\leutepreute\caralculator\data\cara.html
+[2025-05-10 14:01:34]  Failed to download Colruyt data. HTTP code: 200
+[2025-05-10 14:01:59]  Data saved to C:\Users\tom wislez\OneDrive\Documents\Visual Studio Code\repos\Schone Smoel Website\schonesmoel.be\leutepreute\caralculator\data\cara.html
+[2025-05-10 14:02:22]  Data saved to C:\Users\tom wislez\OneDrive\Documents\Visual Studio Code\repos\Schone Smoel Website\schonesmoel.be\leutepreute\caralculator\data\cara.html
+[2025-05-10 14:12:21]  Data saved to C:\Users\tom wislez\OneDrive\Documents\Visual Studio Code\repos\Schone Smoel Website\schonesmoel.be\leutepreute\caralculator\data\cara.html
+[2025-05-10 14:12:21]  Cara price found: €0.39
+[2025-05-10 14:29:17]  Data saved to C:\Users\tom wislez\OneDrive\Documents\Visual Studio Code\repos\Schone Smoel Website\schonesmoel.be\leutepreute\caralculator\data\cara.html
+[2025-05-10 14:29:17]  Cara price found: €0.39
+[2025-05-10 14:29:15]  Cara price added to JSON log
+[2025-05-10 14:29:43]  Data saved to C:\Users\tom wislez\OneDrive\Documents\Visual Studio Code\repos\Schone Smoel Website\schonesmoel.be\leutepreute\caralculator\data\cara.html
+[2025-05-10 14:29:43]  Cara price found: €0.39
+[2025-05-10 14:29:42]  Cara price added to JSON log
+[2025-05-10 14:46:52]  Data saved to cara.html
+[2025-05-10 14:46:52]  Cara price found: €0.39
+[2025-05-10 14:46:51]  Cara price added to JSON log
+[2025-05-10 14:52:45]  Data saved to C:\Users\tom wislez\OneDrive\Documents\Visual Studio Code\repos\Schone Smoel Website\schonesmoel.be\leutepreute\caralculator\data\cara.html
+[2025-05-10 14:52:45]  Cara price found: €0.39
+[2025-05-10 14:52:44]  Cara price added to JSON log
+[2025-05-10 14:53:30]  Data saved to C:\Users\tom wislez\OneDrive\Documents\Visual Studio Code\repos\Schone Smoel Website\schonesmoel.be\leutepreute\caralculator\data\cara.html
+[2025-05-10 14:53:30]  Cara price found: €0.39
+[2025-05-10 14:53:29]  Cara price added to JSON log

@@ -1,0 +1,175 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Caralculator</title>
+	<meta name="author" content="Tom Wislez">
+	<meta name="description" content="This is the official cara fan app. Installable as a web app." />
+  	<meta name="keywords" content="Cara, carapils, cara pils, colruyt, cara rouge, cara blond, calculator" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="./images/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/x-icon" href="./images/icons/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./images/icons/favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="./images/icons/safari-pinned-tab.svg" color="#AA8E66">
+	<meta name="msapplication-TileColor" content="#AA8E66">
+	<meta name="theme-color" content="#AA8E66">
+
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="module" src="main.js"></script>
+	<script type="text/javascript" src="caralculatorscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div id=content class="flex-container flex-direction-column">
+        <div id="banner" class="flex-container flex-direction-column">
+            <div class="gold-horizontal"></div>
+            <div id="title-block">
+                <div class="flex-container flex-direction-column">
+                    <div class="title app-title">Caralculator</div>
+                    <div class="title sub-title">the official cara app</div>
+                </div>
+            </div>
+            <div class="gold-horizontal"></div>
+            
+    
+    
+        </div>
+        <div id="main-block" class="flex-container">
+
+            <div id="menu" class="flex-container flex-direction-column">
+                <div  class="menu-item menu-item-selectable selected" id="home-button"></div>
+                <div  class="menu-item menu-item-selectable" id="heart-button"></div>
+                <div  class="menu-item menu-item-selectable" id="stock-button"></div>
+                <div  class="menu-item menu-item-selectable" id="settings-button"></div>
+                <div  class="menu-item" id="share-button">
+                    <div class="menu-item popup-balloon" id="popup-balloon-share-button">share!</div>
+                </div>
+                <div  class="menu-item hidden" id="install-button">
+                    <div class="menu-item popup-balloon" id="popup-balloon-install-button">installeer mij!</div>
+                </div>
+            </div>
+            <div id="page" class="flex-container flex-direction-column">
+                <div id="topPageWrapper"></div>
+                <div id="middlePageWrapper">
+                    <!--Main caralculator Page-->
+                    <div id="caralculator-page" class="page">
+
+                        
+                        <div class="input-block">
+                            <span>€</span>
+                            <input 
+                                type="number" 
+                                min="0"
+                                id="input"
+                                autofocus
+                                placeholder="0"
+                                class="input"
+                            />
+                            <button id="caralculate-button" class="button">Caralculate!</button>
+                        </div>
+                        <div class="output-block">
+                            <div class="output-block-item"><span id="output1"></span></div>
+                            <div>‎</div>
+                            <div class="output-block-item"><span id="output2"></span></div>
+                        </div>
+                        
+                    </div>
+
+                    <!--Caralove Page-->
+                    <div id='caralove-page' class="page hidden">
+                        
+                        <div class="textblock">
+                            <h1>Show some cara love</h1>
+                            <p>Cara Pils is een merk Belgisch bier, dat door de supermarktketen Colruyt op de markt wordt gebracht. Het is een blond bier met een alcoholpercentage variërend van 4,4% tot 5%, dat zich uitdrukkelijk positioneert in het ondersegment van de markt. </p>
+                            <h2>Productie</h2>
+                            <p>Colruyt schrijft periodiek een lastenboek uit met ingrediënten en verhoudingen. Brouwerijen kunnen naar de opdracht dingen door een offerte in te dienen. Wie de beste voorwaarden (de laagste prijs) kan bieden, krijgt de bestelling. Zo kan Colruyt een zeer goedkoop bier op de markt brengen. Ook andere grootwarenhuizen brengen een eigen huismerk-budgetpils uit volgens dit principe.</p> 
+                            <p>Colruyt communiceert om marktstrategische redenen niet bij welke brouwerij Cara Pils wordt gebrouwen. Uit analyse van de bieretiketten zou wel blijken dat het achtereenvolgens is gebrouwen bij Haacht, Van Roy, Martens, Bosteels, Alken-Maes, Palm en Brasserie de Saint-Omer (Nord-Pas-de-Calais).</p>         
+                            <p>Cara Pils wordt aangeboden in 25-centiliter herbruikbare flesjes, en in blikjes van 33 of 50 centiliter.</p>
+                            <h2>Imago</h2>
+                            <p>De lage prijs van het bier heeft tot gevolg dat het populair is in België. Het wordt vooral in ingeblikte vorm verkocht. Dat het bier een zekere cultstatus had, bleek in februari 2015 toen er via de sociale media werd gemobiliseerd tegen de door Colruyt voorgenomen naamswijziging in Everyday.</p>
+                            <p>Op YouTube staat een filmpje uit 2010 van een Pukkelpopganger die een blik Cara Pils met een hamer verplettert, waarin met de woorden "'t Is Cara, trut!" wordt gereageerd op een terechtwijzende opmerking hierover. Anno 2018 is dit filmpje meer dan 350.000 keer bekeken. De woorden "'t Is Cara, trut!" werden al snel een meme op online forums en sociale media. </p>
+                            <p><a target="_blank" href="https://nl.wikipedia.org/wiki/Cara_Pils">Bron: Wikipedia</a></p>
+                        
+                        </div>
+
+
+
+                    </div>
+                    <!--Info Page-->
+                    <div id='stock-page' class="page hidden">
+                        
+                            <div class="textblock">
+                                <h1>Huidige Cara pils prijs:</h1>
+                                <span class="flex-container">
+                                    <div class="currentCaraPrice" id="caraPrice"></div>
+                                    <div id="stockBlock" class="flex-container">
+                                        <div id="caraStockPriceChange"></div>
+                                        <div id="caraStockPercentage"></div>
+                                        
+                                    </div>
+                                    
+                                </span>
+                                <h2></h2>
+                            </div>
+                            <div class="chartcontainer">
+                                <canvas id="caraChart"></canvas>
+                            </div>
+                            <div id="chart-handles" class="flex-container">
+                                <button id="caraChart-button1" class="button chart-button">2016 - Nu</button>
+                                <button id="caraChart-button2" class="button chart-button" >Dit jaar</button>
+                                <button id="caraChart-button3" class="button chart-button">Deze maand</button>
+
+                            </div>
+                            
+                
+                
+                
+                    </div>
+                    <!--Settings Page-->
+                    <div id='settings-page' class="page hidden">
+                    
+                            <div class="textblock">
+                                <h1>Settings</h1>
+                                <p>Personaliseer de caralculator app naar uw noden!</p>
+                                <div class="input-block">
+                                    <h2>Aantal cara's dat je kan drinken per uur: </h2>
+                                    <input 
+                                        type="number" 
+                                        min="0"
+                                        id="inputCarasPerHour"
+                                        autofocus
+                                        placeholder="3"
+                                        class="input"
+                                    />
+                                    <button id="save-button" class="button">Opslaan!</button>
+                                </div>
+
+
+                            </div>
+                
+                
+                
+                    </div>
+                </div>
+                <div id="bottomPageWrapper"></div>
+            </div>
+            
+        </div>
+        
+        <div id="footer"></div>
+    
+    
+    
+    
+    
+    
+    
+
+    </div>
+    
+</body>

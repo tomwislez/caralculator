@@ -1,0 +1,21 @@
+{
+    "name": "Caralculator",
+    "short_name": "Caralculator",
+    "id": "/caralculator/index.html",
+    "start_url": "/caralculator/index.html",
+    "icons": [
+        {
+            "src": "../caralculator/images/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "../caralculator/images/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#AA8E66",
+    "background_color": "#AA8E66",
+    "display": "standalone"
+}
