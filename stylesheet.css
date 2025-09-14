@@ -143,6 +143,12 @@ span {
 #install-button:hover{
     background-image: url("./images/icons/install_button_hover.png");
 }
+#links-button{
+    background-image: url("./images/icons/links_button.png");
+}
+#links-button:hover{
+    background-image: url("./images/icons/links_button_hover.png");
+}
 #share-button{
     background-image: url("./images/icons/share_button.png");
 }
