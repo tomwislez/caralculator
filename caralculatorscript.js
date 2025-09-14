@@ -24,6 +24,7 @@ $(document).ready(function() {
 
 
         const defaultStoredSettings = {
+            "lastViewTime": Date.now(),
             "caraPrice": 0.39,
             "carasPerHour": 3
         }
@@ -351,6 +352,10 @@ $(document).ready(function() {
 
     //installbutton handled in main.js!!!
 
+    $("#links-button").on('click', () => {
+        window.open("https://www.sideprojects.schonesmoel.be", '_blank').focus()
+    })
+
     $("#share-button").on('click', async () => {
         //share link
         const shareData = {
@@ -443,18 +448,39 @@ $(document).ready(function() {
 
     //Popup balloon
     function popupBalloonInstall (){
-        $("#popup-balloon-install-button").animate({width:100}, { complete: setTimeout(function(){
-            $("#popup-balloon-install-button").animate({width:0});
-            }, 5000)
-        });
+        let calculateFiveDaysAgo = (Date.now() - 432000000);
+        if (settings.lastViewTime < calculateFiveDaysAgo ){
+            $("#popup-balloon-install-button").animate({width:100}, { complete: setTimeout(function(){
+                $("#popup-balloon-install-button").animate({width:0});
+                }, 5000)
+            });
+            settings.lastViewTime = Date.now();
+            storeSettings();
+        }
+    }
+    
+    function popupBalloonLinks (){
+        let calculateFiveDaysAgo = (Date.now() - 432000000);
+        if (settings.lastViewTime < calculateFiveDaysAgo ){
+            $("#popup-balloon-links-button").animate({width:100}, { complete: setTimeout(function(){
+                    $("#popup-balloon-links-button").animate({width:0});
+                }, 5000)
+            });
+            settings.lastViewTime = Date.now();
+            storeSettings();
+        }
     }
 
-
     function popupBalloonShare (){
-        $("#popup-balloon-share-button").animate({width:100}, { complete: setTimeout(function(){
-            $("#popup-balloon-share-button").animate({width:0});
-            }, 5000)
-        });
+        let calculateFiveDaysAgo = (Date.now() - 432000000);
+        if (settings.lastViewTime < calculateFiveDaysAgo ){
+            $("#popup-balloon-share-button").animate({width:100}, { complete: setTimeout(function(){
+                    $("#popup-balloon-share-button").animate({width:0});
+                }, 5000)
+            });
+            settings.lastViewTime = Date.now();
+            storeSettings();
+        }
     }
 
 
@@ -484,6 +510,7 @@ $(document).ready(function() {
     //updateCaraStockPrice();
 
     
+
 
 
 
