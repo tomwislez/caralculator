@@ -1,3 +1,5 @@
+# This is a helper script to quickly list all files that needs to be cached via the service worker.
+# Needs to run in the root of the pwa project.
 import os
 
 def list_files(startpath):
@@ -24,3 +26,4 @@ for file in all_files:
     relative_path = os.path.relpath(file, project_folder).replace("\\", "/")
     print(f"  '/{relative_path}',")
 print("];")
+
